@@ -147,14 +147,18 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Sistema para Clínicas",
+        "href": "https://clinica.work"
+      },
+      {
+        "label": "Suporte por WhatsApp",
+        "href": "https://dub.sh/suporteclinicawork"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Usar o sistema",
+      "href": "https://web.clinica.work"
     }
   },
   "contextual": {
