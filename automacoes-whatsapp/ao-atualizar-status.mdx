@@ -1,0 +1,41 @@
+---
+title: "Ao atualizar o status do agendamento"
+description: "Como disparar mensagens automáticas ao mudar status."
+---
+
+Essa automação dispara mensagens no WhatsApp **quando você muda o status do agendamento**. Ela é muito usada para enviar **confirmação** e **localização**, além de instruções específicas para cada tipo de atendimento.
+
+## Quando usar
+
+- **Ao marcar como confirmado**: enviar confirmação + localização + instruções de chegada.
+- **Ao marcar teleconsulta** (ou status equivalente): enviar link e orientações.
+- **Ao marcar como em atendimento / no consultório**: enviar aviso rápido (quando fizer sentido no seu fluxo).
+
+## Exemplo de fluxo (status: confirmado)
+
+Um fluxo comum é uma sequência de mensagens:
+
+1. **Texto**: confirmação do agendamento (data e horário).
+2. **Localização**: link/posição para abrir no GPS.
+3. **Texto**: instruções finais (ex.: estacionamento, andar/sala, documentos).
+
+## Como configurar
+
+1. Acesse o painel de **Automação do WhatsApp**.
+2. Abra a automação **Ao atualizar o status do agendamento**.
+3. Selecione o(s) **status** que vão disparar o fluxo (ex.: confirmado).
+4. Defina filtros (opcional) por **agenda**, **serviço** e/ou **convênio**.
+5. Monte a sequência de mensagens (texto, localização e outras mídias, se disponível).
+6. Salve e teste mudando o status de um agendamento.
+
+## Boas práticas
+
+- **Evite duplicidade**: se você já envia mensagem “ao agendar”, deixe “ao confirmar” para localização e instruções finais.
+- **Personalize por tipo de atendimento**: presencial e teleconsulta normalmente precisam de mensagens diferentes.
+- **Use variáveis** (quando disponível): deixe a mensagem automática com dados do agendamento.
+
+## Outras automações relacionadas
+
+- [WhatsApp: ao agendar um novo paciente](/automacoes-whatsapp/ao-agendar)
+- [WhatsApp: confirmar agenda](/automacoes-whatsapp/confirmar-agenda)
+- [WhatsApp: ao finalizar a consulta](/automacoes-whatsapp/ao-finalizar-consulta)

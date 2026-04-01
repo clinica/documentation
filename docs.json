@@ -57,17 +57,38 @@
           {
             "group": "Visão geral",
             "pages": [
-              "whatsapp",
-              "quickstart"
+              "automacoes-whatsapp",
+              "automacoes-whatsapp/editor-fluxo-mensagems"
             ]
           },
           {
-            "group": "Automações (agenda)",
+            "group": "Status da agenda",
             "pages": [
-              "automacoes/whatsapp-ao-agendar",
-              "automacoes/whatsapp-ao-atualizar-status",
-              "automacoes/whatsapp-ao-finalizar-consulta",
-              "automacoes/whatsapp-confirmar-agenda"
+              "automacoes-whatsapp/ao-agendar",
+              "automacoes-whatsapp/ao-atualizar-status",
+              "automacoes-whatsapp/ao-finalizar-consulta",
+              "automacoes-whatsapp/confirmar-agenda"
+            ]
+          },
+          {
+            "group": "Relacionados a agenda",
+            "pages": [
+              "automacoes-whatsapp/lembretes",
+              "automacoes-whatsapp/teleconsulta"
+            ]
+          },
+          {
+            "group": "Envio de recursos específicos",
+            "pages": [
+              "automacoes-whatsapp/contratos",
+              "automacoes-whatsapp/programa-de-indicacao"
+            ]
+          },
+          {
+            "group": "Sem precisar estar na agenda",
+            "pages": [
+              "automacoes-whatsapp/envio-manual",
+              "automacoes-whatsapp/envio-livre"
             ]
           }
         ]

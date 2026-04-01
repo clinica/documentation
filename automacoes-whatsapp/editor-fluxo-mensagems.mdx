@@ -1,0 +1,55 @@
+---
+title: "Editor de fluxo de mensagens"
+description: "Aprenda a montar um fluxo com filtros, etapas e variáveis."
+---
+
+O editor de fluxo é onde você monta a sequência de mensagens que o sistema vai enviar pelo WhatsApp (texto, localização, arquivos e outras etapas), com regras para atender cada caso de uso.
+
+## Como criar um novo fluxo
+
+1. Acesse a área de **Automação do WhatsApp**.
+2. Escolha o tipo de automação (ex.: ao agendar, ao atualizar status, ao finalizar, confirmação em massa).
+3. Clique em **Adicionar** para criar um novo fluxo.
+
+## Filtros (regras do fluxo)
+
+Os filtros existem para você direcionar o fluxo para um cenário específico.
+
+- **Agenda**: normalmente é o filtro principal, porque envolve o profissional e o contexto do atendimento.
+- **Convênio** (opcional): útil quando você precisa de orientações diferentes por convênio.
+- **Serviço** (opcional): útil quando cada procedimento exige mensagens próprias.
+
+Se você deixar filtros em branco (quando permitido), o fluxo pode se aplicar a um conjunto maior de agendamentos.
+
+## Etapas do fluxo
+
+Todo fluxo começa no passo **Início**. A partir dele, você adiciona etapas como:
+
+- **Texto**
+- **Localização**
+- **PDF**
+- **Imagem**
+- **Áudio**
+
+## Variáveis (para textos)
+
+Em mensagens de texto, você pode usar **variáveis** para personalizar automaticamente com dados do paciente e do agendamento (por exemplo, nome, data e horário).
+
+## Envio de arquivos (PDF, imagem, áudio)
+
+Ao enviar arquivos, você faz upload no editor. O sistema hospeda o conteúdo e anexa automaticamente na mensagem do WhatsApp durante o disparo.
+
+## Enviar apenas para pacientes novos (quando disponível)
+
+Se o seu caso pedir, você pode restringir etapas (ou o fluxo inteiro) para **pacientes novos**.
+
+## Precisa de ajuda para montar o fluxo?
+
+Se você quiser, o time pode ajudar a **customizar o fluxo** para o seu caso de uso pelo **Suporte por WhatsApp**.
+
+## Leia também
+
+- [WhatsApp: ao agendar um novo paciente](/automacoes-whatsapp/ao-agendar)
+- [WhatsApp: ao atualizar o status do agendamento](/automacoes-whatsapp/ao-atualizar-status)
+- [WhatsApp: ao finalizar a consulta](/automacoes-whatsapp/ao-finalizar-consulta)
+- [WhatsApp: confirmar agenda](/automacoes-whatsapp/confirmar-agenda)
