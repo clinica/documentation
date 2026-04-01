@@ -14,9 +14,9 @@
         "tab": "Agenda",
         "groups": [
           {
-            "group": "Visão geral",
+            "group": "Getting started",
             "pages": [
-              "agenda",
+              "quickstart",
               "development"
             ]
           },
@@ -50,9 +50,9 @@
         "tab": "Automação do WhatsApp",
         "groups": [
           {
-            "group": "Visão geral",
+            "group": "Getting started",
             "pages": [
-              "whatsapp",
+              "index",
               "quickstart",
               "development"
             ]
@@ -87,9 +87,9 @@
         "tab": "Prontuário",
         "groups": [
           {
-            "group": "Visão geral",
+            "group": "API documentation",
             "pages": [
-              "prontuario"
+              "api-reference/introduction"
             ]
           },
           {
@@ -107,9 +107,9 @@
         "tab": "Financeiro Médico",
         "groups": [
           {
-            "group": "Visão geral",
+            "group": "API documentation",
             "pages": [
-              "financeiro"
+              "api-reference/introduction"
             ]
           },
           {
