@@ -114,7 +114,7 @@
         ]
       },
       {
-        "tab": "Financeiro Médico",
+        "tab": "Financeiro",
         "groups": [
           {
             "group": "Visão geral",
@@ -123,12 +123,19 @@
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Financeiro no dia a dia",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "financeiro/lancamentos-e-categorias",
+              "financeiro/formas-de-pagamento-e-parcelas",
+              "financeiro/convenios-e-pendencias"
+            ]
+          },
+          {
+            "group": "Conciliação e relatórios",
+            "pages": [
+              "financeiro/conciliacao-bancaria-ofx",
+              "financeiro/relatorios-financeiros",
+              "financeiro/notas-fiscais"
             ]
           }
         ]

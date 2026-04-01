@@ -1,39 +1,29 @@
 ---
-title: "Cursor setup"
-description: "Configure Cursor for your documentation workflow"
-icon: "arrow-pointer"
+title: "Financeiro"
+description: "Controle entradas, saídas, convênios, formas de pagamento e relatórios."
 ---
 
-Set up Cursor to help you write and maintain your Mintlify documentation.
+O Financeiro do Clínica Work te ajuda a registrar **entradas e saídas**, acompanhar **pendências de convênios**, organizar **formas de pagamento** e extrair **relatórios** para tomar decisões com base em dados.
 
-## Prerequisites
+## Páginas principais
 
-- Cursor editor installed
-
-## Setup
-
-<Steps>
-<Step title="Open your docs directory in Cursor">
-  Open the root of your documentation repository where `docs.json` is located.
-</Step>
-
-<Step title="Install the Mintlify skill">
-  In the integrated terminal, run:
-
-  ```bash
-  npx skills add https://mintlify.com/docs
-  ```
-
-  This gives Cursor Mintlify's component reference, writing standards,
-  and workflow guidance.
-</Step>
-
-<Step title="Customize project instructions">
-  Edit `AGENTS.md` in your project root to add project-specific terminology,
-  style preferences, and content boundaries.
-</Step>
-
-<Step title="Start writing with Cursor">
-  Open a file and use Cursor's AI features to draft and edit documentation.
-</Step>
-</Steps>
+<Columns cols={2}>
+  <Card title="Lançamentos e categorias" icon="receipt" href="/financeiro/lancamentos-e-categorias">
+    Registre entradas e saídas e organize por categorias.
+  </Card>
+  <Card title="Conciliação bancária (OFX)" icon="link" href="/financeiro/conciliacao-bancaria-ofx">
+    Importe OFX e concilie movimentos com o que está no sistema.
+  </Card>
+  <Card title="Relatórios financeiros" icon="bar-chart-3" href="/financeiro/relatorios-financeiros">
+    Analise entradas, saídas e desempenho por serviço/convênio.
+  </Card>
+  <Card title="Formas de pagamento e parcelas" icon="credit-card" href="/financeiro/formas-de-pagamento-e-parcelas">
+    Pix, dinheiro, cartão, parcelamento e divisão de pagamento.
+  </Card>
+  <Card title="Convênios e pendências" icon="hourglass" href="/financeiro/convenios-e-pendencias">
+    Controle pagamentos futuros e itens não faturados.
+  </Card>
+  <Card title="Notas fiscais" icon="file-text" href="/financeiro/notas-fiscais">
+    Emissão de NFS-e (quando disponível na sua cidade).
+  </Card>
+</Columns>
