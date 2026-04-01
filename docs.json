@@ -7,6 +7,9 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
+  "icons": {
+    "library": "lucide"
+  },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
@@ -17,31 +20,24 @@
             "group": "Visão geral",
             "pages": [
               "agenda",
-              "development"
+              "agenda/agendar-paciente",
+              "agenda/relatorio-de-performance",
+              "agenda/cancelar-agendamento",
+              "agenda/mover-agendamento-outro-dia"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Customizações",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "agenda/customizar-cores-consultas",
+              "agenda/customizar-status-consultas",
+              "agenda/customizar-campos-consultas"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Relatórios",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "agenda/relatorio-de-performance"
             ]
           }
         ]
@@ -53,32 +49,16 @@
             "group": "Visão geral",
             "pages": [
               "whatsapp",
-              "quickstart",
-              "development"
+              "quickstart"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Automações (agenda)",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "automacoes/whatsapp-ao-agendar",
+              "automacoes/whatsapp-ao-atualizar-status",
+              "automacoes/whatsapp-ao-finalizar-consulta",
+              "automacoes/whatsapp-confirmar-agenda"
             ]
           }
         ]
@@ -127,21 +107,22 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Suporte por WhatsApp",
+          "href": "https://dub.sh/suporteclinicawork",
+          "icon": "message-circle"
         }
       ]
-    }
+    },
+    "languages": [
+      {
+        "language": "Português",
+        "code": "pt-BR"
+      }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/light.png"
   },
   "navbar": {
     "links": [

@@ -1,39 +1,103 @@
 ---
-title: "Cursor setup"
-description: "Configure Cursor for your documentation workflow"
-icon: "arrow-pointer"
+title: "Agenda"
+description: "Entenda os modos de visualização e integrações da agenda"
 ---
 
-Set up Cursor to help you write and maintain your Mintlify documentation.
+Agenda é a área onde você organiza sua rotina de atendimentos. Ela é **extensível**, suporta **múltiplos fluxos** e pode ser **customizada** para o seu jeito de trabalhar (profissional e secretária).
 
-## Prerequisites
+## O que você consegue fazer
 
-- Cursor editor installed
+- **Agendar e reagendar**: crie agendamentos e mova pacientes entre dias com rapidez.
+- **Padronizar o fluxo**: use cores, status e campos para deixar a leitura consistente para o time.
+- **Reduzir trabalho manual**: conecte com WhatsApp para confirmações e lembretes.
+- **Manter rastreabilidade**: acompanhe quem criou e quem atualizou eventos na agenda.
 
-## Setup
+## Modos de visualização
 
-<Steps>
-<Step title="Open your docs directory in Cursor">
-  Open the root of your documentation repository where `docs.json` is located.
-</Step>
+Você começa com três modos (e pode sugerir outros):
 
-<Step title="Install the Mintlify skill">
-  In the integrated terminal, run:
+- **Agenda detalhada**: exibe as informações mais relevantes direto na agenda, para você **ver e agir** sem depender de cliques extras.
+- **Agenda diária**: foco no dia, com organização lógica e **arrastar e soltar** para mover agendamentos com precisão. Você também pode **customizar cores** por tipo de atendimento ou status.
+- **Agenda semanal**: visão completa da semana, ideal para organização geral. Um recurso muito usado é **mover pacientes entre dias** rapidamente, sem abrir painéis adicionais.
 
-  ```bash
-  npx skills add https://mintlify.com/docs
-  ```
+## Integrações
 
-  This gives Cursor Mintlify's component reference, writing standards,
-  and workflow guidance.
-</Step>
+A agenda se conecta com outras áreas do sistema para acelerar sua rotina:
 
-<Step title="Customize project instructions">
-  Edit `AGENTS.md` in your project root to add project-specific terminology,
-  style preferences, and content boundaries.
-</Step>
+- **WhatsApp (com automação)**: confirme consultas com **um clique**, automatize mensagens pré-definidas e padronize status. Funciona com **WhatsApp Cloud** ou **WhatsApp Web comercial**.
+- **Prontuário**: veja quando o profissional registrou uma anotação, indicando que o atendimento está próximo de ser finalizado.
+- **Estoque**: visualize e use itens com poucos cliques, com mais controle do que entra e sai.
+- **Financeiro**: inclua valores de atendimentos sem burocracia, para manter o controle financeiro em dia.
+- **Auditoria de equipe**: se sua clínica tiver mais de uma secretária, você consegue ver **quem agendou**, **quem atualizou**, **quem confirmou** e **quem finalizou**.
+- **Mensagem de retorno**: programe um lembrete para o paciente voltar (por exemplo, em 6 meses). Com a automação ativa, o sistema envia a mensagem no momento certo.
 
-<Step title="Start writing with Cursor">
-  Open a file and use Cursor's AI features to draft and edit documentation.
-</Step>
-</Steps>
+## Customizações comuns
+
+Você pode adaptar a agenda ao seu fluxo. As customizações mais comuns são:
+
+- **Cores**: para diferenciar rapidamente tipos de atendimento e/ou status.
+- **Status**: para refletir o seu processo (por exemplo: confirmado, em atendimento, finalizado, faltou).
+- **Campos**: para capturar as informações que importam sem deixar a tela poluída.
+
+## Importante
+
+Se você tiver alguma sugestão, nossa equipe está pronta para **personalizar** o sistema para você. Diferente de outras empresas do mercado, nós nos comprometemos a **entregar o recurso em até duas semanas** — esse é um compromisso do Clínica Work com a sua clínica.
+
+## Perguntas frequentes
+
+<Columns cols={2}>
+  <Card
+    title="Como faço para agendar um paciente?"
+    icon="calendar-plus"
+    href="/agenda/agendar-paciente"
+  >
+    Veja o fluxo recomendado para criar um agendamento e evitar retrabalho.
+  </Card>
+  <Card
+    title="Como faço para cancelar um agendamento?"
+    icon="calendar-x"
+    href="/agenda/cancelar-agendamento"
+  >
+    Entenda como cancelar e como registrar o motivo (quando necessário).
+  </Card>
+  <Card
+    title="Como faço para mover um agendamento para outro dia?"
+    icon="calendar-clock"
+    href="/agenda/mover-agendamento-outro-dia"
+  >
+    Aprenda a reagendar sem perder contexto do atendimento e do status.
+  </Card>
+  <Card
+    title="Como faço para customizar as cores das consultas?"
+    icon="palette"
+    href="/agenda/customizar-cores-consultas"
+  >
+    Configure cores por tipo de atendimento, status ou regra do seu fluxo.
+  </Card>
+  <Card
+    title="Como faço para customizar os status das consultas?"
+    icon="tag"
+    href="/agenda/customizar-status-consultas"
+  >
+    Ajuste os status para refletir seu processo (confirmado, em atendimento, etc.).
+  </Card>
+  <Card
+    title="Como faço para customizar os campos das consultas?"
+    icon="input"
+    href="/agenda/customizar-campos-consultas"
+  >
+    Crie e organize campos para capturar as informações que você precisa.
+  </Card>
+</Columns>
+
+## Próximos passos
+
+Se você quer ir além da agenda e montar um fluxo completo (**do agendamento ao financeiro**), continue por aqui:
+
+- **Automação do WhatsApp**: confirme consultas, envie lembretes e padronize mensagens de status. Veja a sessão em [Integração com o WhatsApp](/whatsapp).
+- **Prontuário**: registre a evolução do atendimento e conecte o que aconteceu na consulta com o que aparece na agenda. Veja a sessão em [Prontuário Eletrônico](/prontuario).
+- **Financeiro médico**: lance valores com poucos cliques e acompanhe o que entrou e saiu por atendimento. Veja a sessão em [Financeiro médico](/financeiro).
+
+## Fale com a gente
+
+Se você quiser que a agenda fique do seu jeito (campos, status, cores, automações e fluxos), chame o suporte e diga como você trabalha hoje. Você pode falar com a gente pelo **Suporte por WhatsApp** (link no topo do site).

@@ -1,0 +1,169 @@
+---
+title: "Agendar um paciente"
+description: "Como criar um agendamento na agenda."
+---
+
+Nesta página, você aprende como **criar um agendamento** e quais informações vale a pena preencher para manter a agenda organizada (inclusive quando há mais de uma secretária atendendo ao mesmo tempo).
+
+[imagem]
+
+## Formas de agendar
+
+Você pode criar um agendamento de duas formas:
+
+- **Pela barra lateral**: clique no botão **+** e escolha a **data** e o **horário**.
+- **Clicando em um espaço livre na agenda**: a **data** e o **horário** já vêm preenchidos.
+
+[imagem]
+
+Depois de abrir o editor, o restante do fluxo é o mesmo: você preenche as informações do atendimento.
+
+[imagem]
+
+## Reserva de horário (quando há mais de uma secretária)
+
+Ao entrar no editor, o horário fica **reservado** enquanto você preenche os campos. Isso reduz o risco de duas pessoas agendarem o mesmo horário ao mesmo tempo.
+
+[imagem]
+
+## Campos principais do agendamento
+
+### Status
+
+O **status** comunica a fase do atendimento para o time. Exemplos comuns:
+
+[imagem]
+
+- **Agendado**: o paciente demonstrou interesse e você reservou o horário.
+- **Confirmado**: o paciente confirmou presença.
+- **No consultório**: o paciente já está na clínica.
+- **Em atendimento**: o profissional iniciou o atendimento.
+- **Finalizado**: o atendimento terminou (e automações podem ser disparadas, se configuradas).
+
+Status de exceção/cancelamento (variam por clínica):
+
+- **Cancelado**: o paciente cancelou e não seguirá com o atendimento.
+- **Não atendido**: o atendimento não aconteceu.
+- **Não compareceu**: o paciente faltou.
+- **Fechado**: usado para **bloquear/fechar** um horário (normalmente com uma observação).
+
+### Data e horário
+
+Além do horário do agendamento, você pode registrar **início** e **saída** para ter mais controle da rotina.
+
+[imagem]
+
+### Paciente
+
+- **Paciente novo**: use a opção **não possui cadastro** (você pode converter para cadastro depois).
+- **Paciente já cadastrado**: pesquise por qualquer informação do cadastro e selecione o paciente.
+
+[imagem]
+
+### Serviço (opcional)
+
+Se você usa **serviços/procedimentos**, selecione um para padronizar o agendamento. Dependendo da configuração, isso ajuda a sugerir **tempo** e **valor**.
+
+### Convênio (opcional)
+
+Se você trabalha com convênios, selecione o convênio e o tipo de atendimento para manter o controle do fluxo.
+
+### Financeiro (opcional)
+
+Você pode registrar o **valor** da consulta para faturar/cobrar no momento correto do fluxo.
+
+### Grupo de estoque (opcional)
+
+Associe um **grupo de itens** para registrar uso/baixa sem precisar abrir o módulo de estoque.
+
+### Observações
+
+Use observações para registrar informações relevantes para a secretária e/ou para o profissional.
+
+### Presencial x teleconsulta
+
+Se o atendimento for **teleconsulta**, você pode marcar essa opção. Quando a automação estiver ativa, o sistema pode enviar o link da consulta (por exemplo, alguns minutos antes do horário).
+
+[imagem]
+
+### Prioridade (opcional)
+
+Se mais de um profissional atende a mesma especialidade/agenda, use **prioridade** para orientar o encaixe e a ordem de atendimento.
+
+### Programar mensagem de retorno (opcional)
+
+Agende uma mensagem de retorno para manter relacionamento com o paciente (data, hora e conteúdo). Com automação ativa, o envio acontece automaticamente.
+
+[imagem]
+
+### Apagar (uso com cuidado)
+
+O botão **apagar** remove o registro e é útil para testes. No dia a dia, prefira cancelar/registrar status para não perder histórico.
+
+## Ao selecionar um paciente na agenda
+
+Dependendo do seu plano/configuração, ao selecionar um paciente você pode ver:
+
+[imagem]
+
+- **Histórico de agendamentos** (presenças e faltas)
+- **Histórico financeiro** (débitos em aberto e registros anteriores)
+- **Calculadora de gestação** (para clínicas que usam esse recurso; com IGG ou data do ultrassom)
+
+## Automações do WhatsApp ligadas à agenda
+
+Você pode automatizar mensagens para reduzir trabalho manual e padronizar a comunicação com o paciente.
+
+<Columns cols={2}>
+  <Card
+    title="Ao agendar um novo paciente"
+    icon="message-square-plus"
+    href="/automacoes/whatsapp-ao-agendar"
+  >
+    Mensagem automática de boas-vindas com dados do agendamento.
+  </Card>
+  <Card
+    title="Ao atualizar o status do agendamento"
+    icon="messages-square"
+    href="/automacoes/whatsapp-ao-atualizar-status"
+  >
+    Disparos por status (ex.: confirmação + localização).
+  </Card>
+  <Card
+    title="Ao finalizar a consulta"
+    icon="star"
+    href="/automacoes/whatsapp-ao-finalizar-consulta"
+  >
+    NPS, avaliação no Google e follow-ups pós-atendimento.
+  </Card>
+  <Card
+    title="Confirmar agenda (confirmação em massa)"
+    icon="send"
+    href="/automacoes/whatsapp-confirmar-agenda"
+  >
+    Confirmações em massa para toda a agenda com poucos cliques.
+  </Card>
+</Columns>
+
+### [Ao agendar um novo paciente](/automacoes/whatsapp-ao-agendar)
+
+Você pode enviar uma mensagem automática (pré-definida) com as informações do agendamento, como uma **boas-vindas** e confirmação do horário.
+
+### [Ao atualizar o status do agendamento](/automacoes/whatsapp-ao-atualizar-status)
+
+Ao mudar status (por exemplo, para **confirmado**), você pode disparar mensagens pelo WhatsApp. Um fluxo comum é:
+
+- **Enviar confirmação**
+- **Enviar localização** (se o atendimento for presencial)
+
+### [Ao finalizar a consulta](/automacoes/whatsapp-ao-finalizar-consulta)
+
+Depois de finalizar, você pode disparar mensagens como:
+
+- **Pesquisa de NPS**
+- **Pedido de avaliação no Google**
+
+### [Confirmar agenda (confirmação em massa)](/automacoes/whatsapp-confirmar-agenda)
+
+Esse é um dos recursos mais usados: você envia mensagens para **todos os pacientes da agenda** para confirmar consultas, evitando o processo manual de abrir WhatsApp, enviar mensagem, aguardar resposta e voltar para atualizar status. Em muitos fluxos, isso acontece com **um clique**.
+
