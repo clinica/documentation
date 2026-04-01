@@ -35,6 +35,15 @@
             ]
           },
           {
+            "group": "Tipos de agenda",
+            "pages": [
+              "agenda/detalhada",
+              "agenda/diaria",
+              "agenda/semanal",
+              "agenda/agenda-de-imunoterapia"
+            ]
+          },
+          {
             "group": "Relatórios",
             "pages": [
               "agenda/relatorio-de-performance"
