@@ -103,12 +103,28 @@
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Documentos e registro clínico",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "prontuario/documentos-do-prontuario",
+              "prontuario/transcricao-por-voz",
+              "prontuario/receituario-digital",
+              "prontuario/exames",
+              "prontuario/anexos"
+            ]
+          },
+          {
+            "group": "Atendimento e especialidades",
+            "pages": [
+              "prontuario/teleconsulta",
+              "prontuario/pediatria",
+              "prontuario/obstetricia"
+            ]
+          },
+          {
+            "group": "Configuração",
+            "pages": [
+              "prontuario/personalizacao",
+              "prontuario/migracao-do-papel"
             ]
           }
         ]
@@ -136,6 +152,25 @@
               "financeiro/conciliacao-bancaria-ofx",
               "financeiro/relatorios-financeiros",
               "financeiro/notas-fiscais"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Suporte",
+        "groups": [
+          {
+            "group": "Visão geral",
+            "pages": [
+              "suporte"
+            ]
+          },
+          {
+            "group": "Atendimento",
+            "pages": [
+              "suporte/canais-de-atendimento",
+              "suporte/tempo-de-resposta",
+              "suporte/perguntas-frequentes"
             ]
           }
         ]
