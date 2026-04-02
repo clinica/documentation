@@ -5,6 +5,17 @@ description: "Automatize mensagens, confirmações e fluxos do WhatsApp com base
 
 As automações do WhatsApp permitem enviar mensagens para o paciente **de forma automática**, com regras por agenda, serviço, convênio e status do agendamento. O objetivo é reduzir tarefas repetitivas e padronizar a comunicação.
 
+## Quando usar
+
+- Quando sua secretária faz muitas confirmações “uma a uma” e você quer ganhar tempo.
+- Quando faltas são um problema e você quer lembretes consistentes.
+- Quando você quer que o **status da agenda** dispare ações automaticamente (mensagem, link, orientação, pós-atendimento).
+
+## Pré-requisitos (para funcionar bem)
+
+- **Agenda bem organizada**: status e cores refletem o seu fluxo. Veja [Customizar os status das consultas](/agenda/customizar-status-consultas).
+- **Cadastro do paciente completo**: principalmente telefone/WhatsApp, para evitar falhas de envio.
+
 ## O que você consegue automatizar
 
 - **Confirmar agenda**: envie confirmações para vários pacientes em poucos cliques.
@@ -39,6 +50,12 @@ Para criar ou ajustar mensagens, use o **editor de fluxo de mensagens**:
 
 - [Editor de fluxo de mensagens](/automacoes-whatsapp/editor-fluxo-mensagems)
 
+## Erros comuns (e como evitar)
+
+- **Fluxo dispara no status errado**: padronize status e ordem. Veja [Customizar os status das consultas](/agenda/customizar-status-consultas).
+- **Mensagens sem contexto**: inclua dados do agendamento (dia/hora/unidade/profissional) e uma próxima ação clara.
+- **Excesso de mensagens**: use lembretes e confirmações com parcimônia para não gerar bloqueios/reclamações.
+
 ## Recursos
 
 <Columns cols={2}>
@@ -61,3 +78,12 @@ Para criar ou ajustar mensagens, use o **editor de fluxo de mensagens**:
     Contato automático com leads indicados.
   </Card>
 </Columns>
+
+## Próximos passos
+
+Se você quer conectar WhatsApp com o resto do fluxo (agenda → atendimento → financeiro), siga por aqui:
+
+- **Começar pela agenda**: veja o passo a passo em [Agendar um paciente](/agenda/agendar-paciente).
+- **Teleconsulta completa**: combine [Teleconsulta (WhatsApp)](/automacoes-whatsapp/teleconsulta) com [Teleconsulta (Prontuário)](/prontuario/teleconsulta).
+- **Pós-atendimento e qualidade**: use [Ao finalizar a consulta](/automacoes-whatsapp/ao-finalizar-consulta) e conecte com [Documentos do prontuário](/prontuario/documentos-do-prontuario).
+- **Precisa de ajuda para ajustar o fluxo**: veja [Canais de atendimento](/suporte/canais-de-atendimento).
